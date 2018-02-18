@@ -1,0 +1,28 @@
+a=arduino; %define arduino boarda
+pin='D3'; %define pin number of arduino 
+HIGH=1; % define digital output 1
+LOW=0; % define digital output 0
+
+while (1)
+    
+    writeDigitalPin(a,pin,HIGH); % give pin a high voltage
+    for i=0:1:100000000
+    
+    
+    end 
+    % it provides me delay time for seeing leds open-clo
+    
+    
+    writeDigitalPin(a,pin,LOW);
+    for i=0:1:100000000
+    
+    
+    end
+    
+    
+    
+end
+
+
+
+
