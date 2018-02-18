@@ -1,5 +1,5 @@
 a=arduino; %define arduino boarda
-pin='D3'; %define pin number of arduino 
+pin='D8'; %define pin number of arduino 
 HIGH=1; % define digital output 1
 LOW=0; % define digital output 0
 
